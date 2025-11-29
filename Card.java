@@ -32,8 +32,12 @@ public class Card {
    
 
    
-    public String getValue() { return Character.toUpperCase(this.value.charAt(0)) + this.value.substring(1); }
+    public String getValue() {
+        return Character.toUpperCase(this.value.charAt(0)) + this.value.substring(1);
+    }
 
     
-    public String getType() { return this.type; }
+    public String getType() {
+        return this.type;
+    }
 }
